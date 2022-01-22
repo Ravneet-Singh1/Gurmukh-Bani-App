@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_card5"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context=".MainSikhism">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/guru_granth_sahib_ji"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="37dp"
+        app:shapeAppearanceOverlay="@style/roundimageview"
+        ></com.google.android.material.imageview.ShapeableImageView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1"
+        android:layout_marginTop="20dp"
+        tools:listitem="@layout/custom_list_layout"
+        />
+</LinearLayout>

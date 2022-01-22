@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tech.list_view_test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.List_View_Test">
+        <activity
+            android:name=".AboutUs"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main_SikhGuruDescription"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainSikh_Gurus"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainSikhs2"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainSikhism"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainQuotes"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".BasicActivity"
+            android:exported="true"
+            android:label="@string/title_activity_basic"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"></activity>
+        <activity
+            android:name=".UserActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

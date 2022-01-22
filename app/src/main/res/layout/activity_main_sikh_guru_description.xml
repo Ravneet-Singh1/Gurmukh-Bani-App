@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card1"
+    android:padding="10dp"
+    tools:context=".Main_SikhGuruDescription">
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/guru_image"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/sri_guru_hargobind_singh_ji"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:shapeAppearanceOverlay="@style/roundimageview"
+        ></com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/guruname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guru name"
+        android:layout_marginTop="12dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:fontFamily="@font/drovidsrif"
+        android:textColor="@color/textColor"
+        />
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/guruDesc"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Body"
+            android:padding="10dp"
+            android:textColor="@color/textColor"/>
+
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

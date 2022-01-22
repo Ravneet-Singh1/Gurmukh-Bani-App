@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/font"
+        android:title="Font Size"
+        >
+        <menu>
+
+            <item android:id="@+id/fontSmall"
+                android:title="Small"
+                />
+
+            <item android:id="@+id/fontMedium"
+                android:title="Medium"
+                />
+            <item android:id="@+id/fontLarge"
+                android:title="Large"
+                />
+            <item android:id="@+id/fontExtraLarge"
+                android:title="Extra Large"
+                />
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/color"
+        android:title="Text Colour"
+        >
+        <menu>
+
+            <item android:id="@+id/colorBlack"
+                android:title="Black"
+                />
+            <item android:id="@+id/colorRed"
+                android:title="Red"
+                />
+            <item android:id="@+id/colorGrey"
+                android:title="Grey"
+                />
+            <item android:id="@+id/colorBlue"
+                android:title="Blue"
+                />
+            <item android:id="@+id/colorWhite"
+                android:title="White"
+                />
+        </menu>
+    </item>
+
+    <item android:id="@+id/Theme"
+        android:title="Theme"
+        >
+        <menu>
+
+            <item android:id="@+id/theme_default"
+                android:title="System default"
+                />
+            <item android:id="@+id/theme_light"
+                android:title="Light"
+                />
+            <item android:id="@+id/theme_dark"
+                android:title="Dark"
+                />
+        </menu>
+    </item>
+
+
+
+</menu>
